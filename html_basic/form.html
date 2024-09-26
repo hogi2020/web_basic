@@ -9,10 +9,44 @@
     <form>
         <fieldset>
             <legend>로그인 정보</legend>
-            <label>아이디 : <input type="text" id="user_id" size="10"></label>
-            <label>비밀번호 : <input type="password" id="user_pw" size="10"></label>
-            <input type="submit" value="로그인">
+            <ul>
+                <li>
+                    <label for="user-id">아이디 </label>
+                    <input type="text" id="user_id" size="10">
+                </li>
+                <li>
+                    <label for="user_pw">비밀번호 </label>
+                    <input type="password" id="user_pw" size="10">
+                </li>
+                <li>
+                    <label for="user_tel">연락처 </label>
+                    <input type="tel" id="user_tel">
+                </li>
+                <li>
+                    <label for="memo">메모 </label>
+                    <textarea id="memo" cols="40" rows="4"></textarea>
+                </li>
+                <li>
+                    <label for="prod1">상품 선택</label>
+                    <select id="prod1">
+                        <option value="special_3">선물용 3kg</option>
+                        <option value="special_5" selected>선물용 5kg</option>
+                        <option value="family_3">가정용 3kg</option>
+                        <option value="family_5">가정용 5kg</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="prod2">포장 여부</label>
+                    <input type="text" id="prod2" list="pack">
+                    <datalist id="pack">
+                        <option value="pakage">선물 포장</option>
+                        <option value="unpakage">포장 안 함</option>
+                    </datalist>
+                </li>
+            </ul>
         </fieldset>
+        <br>
+        <input type="submit" value="로그인">
     </form>
 </body>
 </html>
