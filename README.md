@@ -61,6 +61,7 @@ HTML, CSS, Javascript, Web build study
       - 같은 스타일 규칙을 사용하는 요소들을 묶어주는 그룹 선택자
   - CSS 소스 경량화 | CSS파일은 네트워크를 이용해 내려받기 때문에 파일크기가 작을수록 좋습니다.
   - css minity 또는 css compress 등 크기를 줄여주는 툴도 있습니다.
+  - 웹 폰트도 *.ttf 파일은 크기가 크므로, 주로 EOT, WOFF, WOFF2 파일을 사용합니다.
   - css 적용 형식은 인라인 스타일, 내부 스타일, 외부 스타일 3가지가 있습니다.
 
 </br>
