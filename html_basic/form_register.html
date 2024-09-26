@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>register</title>
+    <style>
+        #container {
+            width: 600;
+            margin: 10px auto;
+        }
+    </style>
 </head>
 <body>
     <div id="container">
@@ -12,19 +18,19 @@
                 <legend>사용자 정보</legend>
                 <ui>
                     <li><label for="uid">아이디</label>
-                        <input type="text"></li>
+                        <input type="text" id="uid" autofocus placeholder="4자~10자 사이, 공백없이"></li>
                     <li><label for="umail">이메일</label>
-                        <input type="email"></li>
+                        <input type="email" id="umail" required></li>
                     <li><label for="pw1">비밀번호</label>
-                        <input type="password"></li>
+                        <input type="password" id="pwd1" placeholder="문자와 숫자, 특수 기호 포함"></li>
                     <li><label for="pw2">비밀번호 확인</label>
-                        <input type="password"></li>
+                        <input type="password" id="pwd2" required></li>
                 </ui>
             </fieldset>
             <fieldset>
                 <legend>이벤트와 새로운 소식</legend>
                 <input type="radio" name="mailing" id="mailing_y"><label>메일수신</label>
-                <input type="radio" name="mailing" id="mailing_n"><label>메일수신 안 함</label>
+                <input type="radio" name="mailing" id="mailing_n" checked><label>메일수신 안 함</label>
             </fieldset>
             <input type="submit" value="가입하기">
             <input type="reset" value="취소">
