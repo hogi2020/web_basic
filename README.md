@@ -89,3 +89,5 @@ HTML, CSS, Javascript, Web build study
   - 둥근 테두리를 만드려면 border-radius 속성을 사용합니다.
   - 여백을 조절하는 속성은 margin(요소 사이), padding(콘텐츠와 테두기 사이)입니다.
   - 이미지 배치에 사용되는 속성에 float{left | right}이 있으며, clear{left | right}로 해제할 수 있습니다.
+  - 배치 방법을 결정하는 diplay 속성을 통해 인라인과 블록 레벨 요소 변환이 가능합니다.
+  - float 속성은 웹 요소를 문서 위에 떠 있게 만들 수 있습니다.
