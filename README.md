@@ -45,7 +45,7 @@ HTML, CSS, Javascript, Web build study
 
 </br>
 
-### **6. 입력양식(폼)**
+### **6. HTML : 입력양식(폼)**
   - 사용자가 정보를 입력하면 해당 정보는 웹 서버로 전송됩니다.
   - 그럼 서버는 자신이 가진 데이터베이스에서 정보를 확인하고 결과를 웹 브라우저로 보냅니다.
   - 정보를 넘겨주는 방식은 [get, post] 2가지가 있는데 get은 데이터 제한이 있고 정보가 그대로 드러나는 단점이 있습니다.
@@ -66,7 +66,7 @@ HTML, CSS, Javascript, Web build study
 
 </br>
 
-### **8. 케스케이딩**
+### **8. CSS : 케스케이딩**
   - 케스케이딩이란, 우선순위가 위에서 아래 즉 계산식으로 적용된다는 의미 입니다.
   - 스타일의 중요도에 따라 우선순위를 정하고, 태그의 부모 자식 관계로 스타일을 상속합니다.
   - 스타일 규칙에 !important를 붙이면 다른 스타일보다 우선순위가 높아집니다.
@@ -74,7 +74,17 @@ HTML, CSS, Javascript, Web build study
 
 </br>
 
-### **9. 색상**
+### **9. CSS : 색상**
   - css에서 글자색을 지정하는 속성은 color 입니다.
   - hsl, hsla와 같이 (0, 100%, 50%)와 같이 색상을 표현할 수도 있고
   - rgb와 rgba로 rgb(0, 0, 255)와 같이 색상을 표현할 수 있습니다.
+
+</br>
+
+### **10. CSS : 박스 모델**
+  - 박스 모델의 구조는 콘텐츠 영역, padding, border, margin으로 이루어져 있습니다.
+  - width, height로 사용하거나 box-sizing의 border-box, content-box를 통해 크기를 적용할 영역을 지정합니다.
+  - 박스 모델의 방향은 top, right, bottom, left 순서로 적용됩니다.
+  - 박스 테두리(border) 스타일을 지정할 때는 border-style, border-width, border-color를 사용합니다.
+  - 둥근 테두리를 만드려면 border-radius 속성을 사용합니다.
+  - 여백을 조절하는 속성은 margin(요소 사이), padding(콘텐츠와 테두기 사이)입니다.

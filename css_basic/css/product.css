@@ -1,0 +1,26 @@
+table, th, td {
+  border:1px solid #ccc;
+  border-collapse: collapse;
+}
+th, td { 
+  padding:10px 20px; 
+}
+#container {
+  width: 600px;
+  border-style: none;
+  width: 600px;
+  margin: auto;
+}
+div {
+  border: 1px solid #222;
+  margin: 30px;
+  padding: 20px;
+}
+#description {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+#package {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
