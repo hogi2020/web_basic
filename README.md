@@ -88,3 +88,4 @@ HTML, CSS, Javascript, Web build study
   - 박스 테두리(border) 스타일을 지정할 때는 border-style, border-width, border-color를 사용합니다.
   - 둥근 테두리를 만드려면 border-radius 속성을 사용합니다.
   - 여백을 조절하는 속성은 margin(요소 사이), padding(콘텐츠와 테두기 사이)입니다.
+  - 이미지 배치에 사용되는 속성에 float{left | right}이 있으며, clear{left | right}로 해제할 수 있습니다.
