@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #ccc;
     padding: 20px;
 }
 
@@ -50,4 +50,20 @@ body {
     letter-spacing: 1px;
     padding: 7px 25px;
     margin: auto;
+}
+
+#signup input[type=text], #signup input[type=password], #signup input[type=email], #signup input[type=tel] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 5px;
+    width: 200px;
+}
+
+#signup input[required] {
+    border: 1px red solid;
+}
+
+#signup input[readonly] {
+    border: none;
 }
