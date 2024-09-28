@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/register10.css">
+</head>
+<body>
+    <form id="signup">
+        <fieldset>
+            <legend>로그인 정보</legend>
+            <ul>
+                <li for="userid">
+                    <label>아이디</label>
+                    <input id="userid" name="userid" type="text" required autofocus>
+                </li>
+                <li for="pwd">
+                    <label>비밀번호</label>
+                    <input id="pwd" name="pwd" type="password" required>
+                </li>
+                <li for="pwd2">
+                    <label>비밀번호 확인</label>
+                    <input id="pwd2" name="pwd2" type="password" required>
+                </li>
+                <li for="level">
+                    <label>회원 등급</label>
+                    <input id="level" name="level" type="text" readonly value="준회원">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>개인 정보</legend>
+            <ul>
+                <li for="fullname">
+                    <label>이름</label>
+                    <input id="fullname" name="fullname" type="text" required placeholder="5자미만 공백없이">
+                </li>
+                <li for="mail">
+                    <label>메일 주소</label>
+                    <input id="mail" name="mail" type="text" required placeholder="abcd@domain.com">
+                </li>
+                <li for="phone">
+                    <label>연락처</label>
+                    <input id="phone" name="phone" type="text" autocomplete="off">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <button type="submit">제출</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

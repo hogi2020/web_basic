@@ -91,3 +91,17 @@ HTML, CSS, Javascript, Web build study
   - 이미지 배치에 사용되는 속성에 float{left | right}이 있으며, clear{left | right}로 해제할 수 있습니다.
   - 배치 방법을 결정하는 diplay 속성을 통해 인라인과 블록 레벨 요소 변환이 가능합니다.
   - float 속성은 웹 요소를 문서 위에 떠 있게 만들 수 있습니다.
+  - background 속성은 박스의 배경을 지정합니다.
+
+  </br>
+
+  ### **11. CSS : 연결 선택자**
+  - 특정 요소를 기준으로 그 안에 포함된 요소를 하위 요소라고 합니다.
+  - 하위 선택자를 사용하면 부모 요소에 포함된 하위 요소를 모두 선택할 수 있습니다.
+    - section p {color: blue;}라면 section 요소의 모든 하위 p요소를 파란색 글자로 적용됩니다.
+  - 자식 선택자는 하위 선택자와 다르게 자식 요소에만 스타일을 적용하는 선택자 입니다.
+    - section > p {color: blue;}라면 section 바로 하위에 있는 자식 p들만 적용됩니다.
+  - 인접 형제 선택자는 가장 인접한 요소를 선택합니다.
+    - section + p {color: blue;}라면 section와 가장 인접한 하위 p 1개만 적용됩니다.
+  - 형제 선택자는 인접 형제와 달리 모든 형제 요소에 적용됩니다.
+    - section ~ p {color: blue;}라면 section과 형제인 p요소 모두 적용됩니다.
