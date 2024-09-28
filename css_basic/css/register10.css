@@ -52,7 +52,7 @@ body {
     margin: auto;
 }
 
-#signup input[type=text], #signup input[type=password], #signup input[type=email], #signup input[type=tel] {
+#signup input:not([type=tel]) {
     border: 1px solid #ccc;
     border-radius: 3px;
     font-size: 13px;
@@ -66,4 +66,14 @@ body {
 
 #signup input[readonly] {
     border: none;
+}
+
+#signup fieldset:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+#signup button:hover {
+    background-color: #222;
+    color: #fff;
 }
