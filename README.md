@@ -169,3 +169,11 @@ HTML, CSS, Javascript, Web build study
     - switch(조건) {case 값1 : 명령1 break case2 값2 : 명령2 break}
   - prompt()문으로 입력받은 값은 기본적으로 문자열로 저장됩니다.
   - 그래서 데이터를 불러올 때 parseInt() 정수형으로 변환시키는 것이 안전합니다.
+
+</br>
+
+### **17. Javascript : 반복문**
+  - for(초깃값; 조건; 증가식) {실행할 명령}
+  - for(i = 1; i < 6; i++) {sum += i} | for문을 사용해 1부터 5까지 더하기
+  - while(조건) {실행할 명령} | while문은 조건이 true인 동안 명령을 반복합니다.
+  - do {실행할 명령} while(조건) | do문은 명령을 실행한 후 while문 조건을 체크합니다.
