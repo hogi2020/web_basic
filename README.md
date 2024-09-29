@@ -164,3 +164,8 @@ HTML, CSS, Javascript, Web build study
 ### **16. Javascript : 조건문**
   - if(조건) {조건 결과값이 true일 때 실행}
   - else {조건 결과값이 False일 때 실행}
+    - 조건 연산자는 ?(true), :(false)가 있습니다.
+  - switch문은 처리할 명령이 많을 때 사용하면 편리합니다.
+    - switch(조건) {case 값1 : 명령1 break case2 값2 : 명령2 break}
+  - prompt()문으로 입력받은 값은 기본적으로 문자열로 저장됩니다.
+  - 그래서 데이터를 불러올 때 parseInt() 정수형으로 변환시키는 것이 안전합니다.
