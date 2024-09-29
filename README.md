@@ -177,3 +177,5 @@ HTML, CSS, Javascript, Web build study
   - for(i = 1; i < 6; i++) {sum += i} | for문을 사용해 1부터 5까지 더하기
   - while(조건) {실행할 명령} | while문은 조건이 true인 동안 명령을 반복합니다.
   - do {실행할 명령} while(조건) | do문은 명령을 실행한 후 while문 조건을 체크합니다.
+  - break문은 반복문에서 조건이 종료되기 전에 반복문을 빠져나올 때 사용합니다.
+  - continue문은 반복문에서 주어진 조건을 만나면 해당 반복문을 건너뜁니다.
