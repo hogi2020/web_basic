@@ -257,7 +257,7 @@ HTML, CSS, Javascript, Web build study
 
 </br>
 
-### **24. Javascript : DOM 요소 추가하기
+### **24. Javascript : DOM 요소 추가하기**
   - document.createElement(노드명) | 새로운 요소 노드를 생성
   - document.createTextNode(텍스트) | 새로운 텍스트 노드를 생성
   - document.createAttribute(속성명) | 새로운 속성 노드를 생성
