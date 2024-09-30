@@ -240,4 +240,25 @@ HTML, CSS, Javascript, Web build study
     3. HTML 태그에 있는 속성은 자식 노드인 속성(attribute) 노드입니다.
     4. 주석은 주석 노드입니다.
 
-<img src="![domtree](https://github.com/user-attachments/assets/69e73ba8-c820-46ea-ab2a-116ae3a03621)"  width="700" height="370">
+![domtree](https://github.com/user-attachments/assets/69e73ba8-c820-46ea-ab2a-116ae3a03621)
+
+</br>
+
+### **23. Javascript : DOM 요소 가져오기**
+  - getElementById() | id가 포함된 DOM 요소에 접근할 수 있습니다.
+  - getElementByClassName() | class 선택자 이름이 들어 있는 DOM 요소에 접근할 수 있습니다.
+  - getElementByTagName() | class나 id를 지정하지 않은 DOM 요소에 접근할 수 있습니다.
+  - querySelector(선택자) | DOM Tree의 텍스트, 속성 노드까지 제어할 때 사용합니다.
+  - querySelectorAll(선택자 또는 태그) | DOM Tree의 여러 텍스트, 속성 노드까지 제어할 때 사용합니다.
+  - innerText, innerHTML 프로퍼티는 웹 요소의 내용을 수정할 수 있습니다.
+  - getAttribute("속성명") | 웹 요소의 속성값에 접근할 때, 사용합니다.
+  - setAttribute("속성명", "값") | 원하는 속성값으로 지정할 수 있습니다.
+  - addEventListener("이벤트", 함수, 캡처여부) | 이벤트와 함수를 같이 처리할 수 있습니다.
+
+</br>
+
+### **24. Javascript : DOM 요소 추가하기
+  - document.createElement(노드명) | 새로운 요소 노드를 생성
+  - document.createTextNode(텍스트) | 새로운 텍스트 노드를 생성
+  - document.createAttribute(속성명) | 새로운 속성 노드를 생성
+  - 부모노드.appendChild(자식노드) | 자식노드 생성
