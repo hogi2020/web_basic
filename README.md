@@ -240,4 +240,4 @@ HTML, CSS, Javascript, Web build study
     3. HTML 태그에 있는 속성은 자식 노드인 속성(attribute) 노드입니다.
     4. 주석은 주석 노드입니다.
 
-<img src="https://velog.velcdn.com/images/dbsskdud60/post/f60e6027-dd23-45f5-b315-9fc748fab65a/image.png"  width="700" height="370">
+<img src="![domtree](https://github.com/user-attachments/assets/69e73ba8-c820-46ea-ab2a-116ae3a03621)"  width="700" height="370">
